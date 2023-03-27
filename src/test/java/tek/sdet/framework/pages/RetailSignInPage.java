@@ -17,11 +17,22 @@ public class RetailSignInPage extends BaseSetup {
 	
 	@FindBy(id ="email")
 	public WebElement emailField;
-	
 	@FindBy(css = "#password")
 	public WebElement passwordField;
-	
 	@FindBy(xpath ="//button[text()='Login']")
 	public WebElement loginButton;
-
+	@FindBy(xpath = "//*[@id=\"newAccountBtn\"]")
+	public WebElement createNewAccountButton;
+	@FindBy(xpath ="//*[@id=\"nameInput\"]")
+	public WebElement creatNewAccountNameField;
+	@FindBy(id= "emailInput")
+	public WebElement creeatNewAccountEmailField;
+	@FindBy(xpath ="//*[@id=\"passwordInput\"]")
+	public WebElement createNewAccountPasswordField;
+	@FindBy(id ="confirmPasswordInput")
+	public WebElement createNewAccountConfPassField;
+	@FindBy (xpath = "//button[text()='Sign Up']")
+	public WebElement signUpButton;
 }
+
+

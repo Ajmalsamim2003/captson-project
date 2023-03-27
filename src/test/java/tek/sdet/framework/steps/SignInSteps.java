@@ -36,6 +36,23 @@ public class SignInSteps extends CommonUtility {
 		Assert.assertTrue(isElementDisplayed(factory.homePage().accountOption));
 		logger.info("user is logged in into Account");
 	}
+	@And("User click on Create New Account button")
+	public void userClickOnCreatNewAccountButton () {
+		
+	}
+	@And ("User fill the signUp information with below data")
+	public void userFillTheSignUpInformationWithBelowFdata () {
+		
+	}
+	 @And ("User click on SignUp button")
+	 public void userClickOnSignUpButton() {
+		 
+	 }
+	 @Then ("User should be logged into account page")
+	 public void userShouldBeLOggedINtoAccountPage() {
+		 
+	 }
+	@And ("User change the category to {String}")
 	
 }
 
