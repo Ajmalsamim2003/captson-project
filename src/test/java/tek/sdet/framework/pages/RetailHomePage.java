@@ -24,6 +24,7 @@ public class RetailHomePage extends BaseSetup {
 	public WebElement tekschoolLogo;
 	@FindBy(id = "searchInput")
 	public WebElement searchBarInput;
+	
 	@FindBy(id = "searchBtn")
 	public WebElement searchButton;
 	@FindBy(xpath ="//img[contains(@alt,'Pokemon')]")
